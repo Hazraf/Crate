@@ -25,6 +25,6 @@ pipeline {
         sh 'docker run gesellix/trufflehog --json https://github.com/Hazraf/Crate.git > trufflehog'
         sh 'cat trufflehog'
       }
-    
+    }
   }
 }
